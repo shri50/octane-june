@@ -3,6 +3,7 @@ def calculate_discount(price, discount_percentage=20):
     Calculate the discounted price based on the original price and discount percentage.
 
     :param price: Original price of the item
+    :param discount_percentage: Discount percentage to be applied (default is 20%)
 
     :return: Discounted price
     """
