@@ -7,7 +7,7 @@ def calculate_discount(price):
     :return: Discounted price
     """
     
-    discounted_price = price * 0.05
+    discounted_price = price * 0.20
     return price - discounted_price
 
-print(calculate_discount(100))  # Output: 95.0
+print(calculate_discount(100))  # Output: 80.0
